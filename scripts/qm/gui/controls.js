@@ -136,7 +136,7 @@ guiControls.presetControlsFolder
      = gui.addFolder('Preset Potential Controls');
 guiControls.presetControlsFolder.controls = [];
 gui.add(guiData, 'measurePosition').name('Measure Position');
-guiControls.moreControlsFolder = gui.addFolder('More Controls');
+guiControls.moreControlsFolder = gui.addFolder(' ');
 guiControls.visualizationOptionsFolder = 
         guiControls.moreControlsFolder.addFolder(
             'More Visualization Options');
