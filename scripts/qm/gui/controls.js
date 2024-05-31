@@ -11,8 +11,6 @@ let gui = new dat.GUI();
 
 
 let guiControls = {
-    instructions: null,
-    source: null,
     iter: null,
     brightness: null,
     colourPhase: null,
@@ -85,7 +83,7 @@ let guiControls = {
 };
 
 let palette0 = {color: '#1b191b'};
-guiControls.instructions = gui.addColor(palette0, 'color').name(
+/*guiControls.instructions = gui.addColor(palette0, 'color').name(
     '<a href='
     + '"https://github.com/marl0ny/QM-Simulator-2D/blob/main/INSTRUCTIONS.md"'
     + 'style="color: #efefef; text-decoration: none; font-size: 1em;">'
@@ -103,7 +101,7 @@ guiControls.source = gui.addColor(palette, 'color').name(
     + 'style="color: #efefef; text-decoration: none; font-size: 1em;">'
     + 'Source</a>'
 );
-guiControls.source.domElement.hidden = true;
+guiControls.source.domElement.hidden = true;*/
 guiControls.brightness = gui.add(guiData , 'brightness', 
                                  0, guiData.maxBrightness).name('Brightness');
 guiControls.iter = gui.add(guiData, 'speed', 0, 
